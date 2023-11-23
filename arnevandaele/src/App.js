@@ -2,6 +2,9 @@ import Header from './components/Header';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    document.title = 'Arne Van Daele - Propellor Digital';
+  }, []);
   return (
     <div className='h-screen w-auto bg-gray-100'>
       <Header />
